@@ -10,6 +10,8 @@ A simple workflow for accessing Google Apps.
 * `drive` to open Google Drive
 * `photos` to open Google Photos
 
-You will have to deactivate Gmail and Drive from the default URL searches provided in Alfred to remove the duplicates.
+In the future I plan to integrate more options (new doc, search, etc).
+
+Note: You will have to deactivate Gmail and Drive from the default URL searches provided in Alfred to remove the duplicates.
 
 To install simply download the [GoogleApps.alfredworkflow](GoogleApps.alfredworkflow?raw=true) file and double click to install on Alfred.
