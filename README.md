@@ -11,6 +11,7 @@ A simple workflow for accessing Google Apps.
 * `slides` to open Google Slides
 * `drive` to open Google Drive
 * `photos` to open Google Photos
+* `keep` to open Google Keep
 
 In the future I plan to integrate more options (new doc, search, etc).
 
