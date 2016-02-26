@@ -85,6 +85,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>AC3DD5AA-5A89-469D-96E5-1095CA327E3D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B2D22D0D-BDF7-4EB7-AFC6-42D74FBA78E3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>E2D34EA2-17C9-416F-95E6-3D638168C8A1</key>
 		<array>
 			<dict>
@@ -395,6 +406,42 @@
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>keep</string>
+				<key>text</key>
+				<string>Open Google Keep</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>AC3DD5AA-5A89-469D-96E5-1095CA327E3D</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://keep.google.com/</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>B2D22D0D-BDF7-4EB7-AFC6-42D74FBA78E3</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -454,6 +501,16 @@
 		<dict>
 			<key>ypos</key>
 			<real>610</real>
+		</dict>
+		<key>AC3DD5AA-5A89-469D-96E5-1095CA327E3D</key>
+		<dict>
+			<key>ypos</key>
+			<real>970</real>
+		</dict>
+		<key>B2D22D0D-BDF7-4EB7-AFC6-42D74FBA78E3</key>
+		<dict>
+			<key>ypos</key>
+			<real>970</real>
 		</dict>
 		<key>C2C67776-DF4A-4919-8CCB-BD48F7DD2CB5</key>
 		<dict>
