@@ -1,6 +1,8 @@
 # Alfred Workflow for Google Apps
 A simple workflow for accessing Google Apps.
 
+![Icons](icons.jpg)
+
 * `gmail` to open Gmail
 * `docs` to open Google Docs
 * `sheets` to open Google Sheets
