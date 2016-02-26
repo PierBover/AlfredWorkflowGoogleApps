@@ -12,4 +12,4 @@ A simple workflow for accessing Google Apps.
 
 You will have to deactivate Gmail and Drive from the default URL searches provided in Alfred to remove the duplicates.
 
-To install simply download the [GoogleApps.alfredworkflow](GoogleApps.alfredworkflow) file and double click to install on Alfred.
+To install simply download the [GoogleApps.alfredworkflow](GoogleApps.alfredworkflow?raw=true) file and double click to install on Alfred.
