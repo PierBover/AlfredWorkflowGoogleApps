@@ -3,6 +3,12 @@ A simple workflow for accessing Google Apps.
 
 ![Icons](icons.jpg)
 
+**Installation**
+To install simply download the [GoogleApps.alfredworkflow](GoogleApps.alfredworkflow?raw=true) file and double click to install on Alfred.
+
+> Note: You will have to deactivate Gmail and Drive from the default URL searches provided in Alfred to remove the duplicates.
+
+**Easy access**
 * `gmail` to open Gmail
 * `docs` to open Google Docs
 * `sheets` to open Google Sheets
@@ -13,8 +19,10 @@ A simple workflow for accessing Google Apps.
 * `photos` to open Google Photos
 * `keep` to open Google Keep
 
-In the future I plan to integrate more options (new doc, search, etc).
+**New document**
+* `new doc` to create a new Google Doc
+* `new sheet` to create a new Google Sheet
+* `new slide` to create a new Google Slide
 
-Note: You will have to deactivate Gmail and Drive from the default URL searches provided in Alfred to remove the duplicates.
 
-To install simply download the [GoogleApps.alfredworkflow](GoogleApps.alfredworkflow?raw=true) file and double click to install on Alfred.
+In the future I plan to integrate more options. Raise an issue if you have an idea for a feature request!
