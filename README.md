@@ -19,11 +19,16 @@ To install simply download the [GoogleApps.alfredworkflow](GoogleApps.alfredwork
 * `drive` to open Google Drive
 * `photos` to open Google Photos
 * `keep` to open Google Keep
+* `music` to open Google Play Music
+* `contacts` to open Google Contacts
 
 **New document**
 * `new doc` to create a new Google Doc
 * `new sheet` to create a new Google Sheet
 * `new slide` to create a new Google Slide
 
+**Search**
+* `music` to search Google Play Music
+* `contacts` to search Google Contacts
 
 Raise an issue if you have an idea for a feature request!
