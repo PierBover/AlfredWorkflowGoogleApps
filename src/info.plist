@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>com.pierbover.googleapps</string>
 	<key>category</key>
 	<string>Internet</string>
 	<key>connections</key>
@@ -35,6 +35,28 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>E0A7A797-D30F-4C1E-B927-16C452001D8A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>349850B7-7BE1-4058-89F2-A6B1794904D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FBB8CA9A-E95F-4A9F-AEBD-D411AF399799</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>4154165A-5C54-4658-B3C8-4BD66054EF21</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>67B164E0-C3A8-4FE2-85A0-ED4F043C99B1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -74,6 +96,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>8BE191B8-9A09-4481-9FEE-1BA9A88C10A9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CD42F66C-3216-43E8-B759-741A16F105E6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>A339D0E9-651B-4E2B-B03D-42AEC241B4A3</key>
 		<array>
 			<dict>
@@ -101,6 +134,39 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>B2D22D0D-BDF7-4EB7-AFC6-42D74FBA78E3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>BCC6BE00-BC6E-4501-8394-B60ED9CEB3C2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BEFC65D6-43F6-4268-92AE-EA4BE57A8142</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>BE112D1B-5E79-4348-87A5-F78620D0019F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0EDEAABE-2ABF-486F-9BEF-56EE36BDCD49</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>CEFB64DF-EBBE-4B72-B616-8FC82E034BDA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9D297CFC-F4D8-4202-83F4-CC158C75772C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -154,6 +220,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>gmail</string>
+				<key>text</key>
+				<string>Open Gmail</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>03F2CACB-0D94-434B-BFCC-48DD8CED53A1</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>plusspaces</key>
 				<false/>
 				<key>url</key>
@@ -171,19 +256,17 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>gmail</string>
-				<key>text</key>
-				<string>Open Gmail</string>
-				<key>withspace</key>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://docs.google.com</string>
+				<key>utf8</key>
 				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>03F2CACB-0D94-434B-BFCC-48DD8CED53A1</string>
+			<string>944D1F52-9C03-495B-9A30-AE38AE4B0C72</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -212,14 +295,14 @@
 				<key>plusspaces</key>
 				<false/>
 				<key>url</key>
-				<string>https://docs.google.com</string>
+				<string>https://docs.google.com/spreadsheets/</string>
 				<key>utf8</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>944D1F52-9C03-495B-9A30-AE38AE4B0C72</string>
+			<string>C2C67776-DF4A-4919-8CCB-BD48F7DD2CB5</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -245,17 +328,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>https://docs.google.com/spreadsheets/</string>
-				<key>utf8</key>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>calendar</string>
+				<key>text</key>
+				<string>Open Google Calendar</string>
+				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>C2C67776-DF4A-4919-8CCB-BD48F7DD2CB5</string>
+			<string>6F3BD9EF-B075-4391-AC0E-E37E290EDDDF</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -273,25 +358,6 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>447A5F41-BA36-4457-BEDC-402FE5113F40</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>calendar</string>
-				<key>text</key>
-				<string>Open Google Calendar</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>6F3BD9EF-B075-4391-AC0E-E37E290EDDDF</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -334,23 +400,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>https://docs.google.com/presentation/</string>
-				<key>utf8</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>EA2B448C-8674-4C9F-A4F7-D36F032EC052</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -373,14 +422,14 @@
 				<key>plusspaces</key>
 				<false/>
 				<key>url</key>
-				<string>https://drive.google.com</string>
+				<string>https://docs.google.com/presentation/</string>
 				<key>utf8</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>70495765-3A80-4041-9879-544B455CA3FF</string>
+			<string>EA2B448C-8674-4C9F-A4F7-D36F032EC052</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -409,14 +458,14 @@
 				<key>plusspaces</key>
 				<false/>
 				<key>url</key>
-				<string>https://photos.google.com/</string>
+				<string>https://drive.google.com</string>
 				<key>utf8</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>551B77E3-3099-43C1-8B08-B4322A2B0E1C</string>
+			<string>70495765-3A80-4041-9879-544B455CA3FF</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -445,14 +494,14 @@
 				<key>plusspaces</key>
 				<false/>
 				<key>url</key>
-				<string>https://keep.google.com/</string>
+				<string>https://photos.google.com/</string>
 				<key>utf8</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>B2D22D0D-BDF7-4EB7-AFC6-42D74FBA78E3</string>
+			<string>551B77E3-3099-43C1-8B08-B4322A2B0E1C</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -481,14 +530,14 @@
 				<key>plusspaces</key>
 				<false/>
 				<key>url</key>
-				<string>https://docs.google.com/document/create</string>
+				<string>https://keep.google.com/</string>
 				<key>utf8</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>0FE87E2A-72E5-4B34-BA3E-3AEBCCA0AB06</string>
+			<string>B2D22D0D-BDF7-4EB7-AFC6-42D74FBA78E3</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -508,6 +557,23 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>4D8EAF4D-6F81-439C-903E-479E0FA51CAC</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://docs.google.com/document/create</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>0FE87E2A-72E5-4B34-BA3E-3AEBCCA0AB06</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -550,6 +616,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://docs.google.com/presentation/create</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>C1E72B90-AE0D-4601-B644-3ADD52EEE83D</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -569,17 +652,216 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>forms</string>
+				<key>text</key>
+				<string>Open Google Forms</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BE112D1B-5E79-4348-87A5-F78620D0019F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>plusspaces</key>
 				<false/>
 				<key>url</key>
-				<string>https://docs.google.com/presentation/create</string>
+				<string>https://docs.google.com/forms</string>
 				<key>utf8</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>C1E72B90-AE0D-4601-B644-3ADD52EEE83D</string>
+			<string>0EDEAABE-2ABF-486F-9BEF-56EE36BDCD49</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>new form</string>
+				<key>text</key>
+				<string>New Google Form</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4154165A-5C54-4658-B3C8-4BD66054EF21</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://docs.google.com/forms/create</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>67B164E0-C3A8-4FE2-85A0-ED4F043C99B1</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>music</string>
+				<key>text</key>
+				<string>Open Google Play Music</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>349850B7-7BE1-4058-89F2-A6B1794904D9</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://play.google.com/music</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>FBB8CA9A-E95F-4A9F-AEBD-D411AF399799</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<true/>
+				<key>url</key>
+				<string>https://play.google.com/music/listen#/sr/{query}</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BEFC65D6-43F6-4268-92AE-EA4BE57A8142</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>music</string>
+				<key>text</key>
+				<string>Search Google Play Music</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BCC6BE00-BC6E-4501-8394-B60ED9CEB3C2</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>contacts</string>
+				<key>text</key>
+				<string>Open Google Contacts</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CEFB64DF-EBBE-4B72-B616-8FC82E034BDA</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://contacts.google.com/</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>9D297CFC-F4D8-4202-83F4-CC158C75772C</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<true/>
+				<key>url</key>
+				<string>https://contacts.google.com/u/0/preview/search/{query}</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>CD42F66C-3216-43E8-B759-741A16F105E6</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>contacts</string>
+				<key>text</key>
+				<string>Search Google Contacts</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8BE191B8-9A09-4481-9FEE-1BA9A88C10A9</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -598,6 +880,11 @@
 			<key>ypos</key>
 			<real>730</real>
 		</dict>
+		<key>0EDEAABE-2ABF-486F-9BEF-56EE36BDCD49</key>
+		<dict>
+			<key>ypos</key>
+			<real>1450</real>
+		</dict>
 		<key>0FE87E2A-72E5-4B34-BA3E-3AEBCCA0AB06</key>
 		<dict>
 			<key>ypos</key>
@@ -607,6 +894,16 @@
 		<dict>
 			<key>ypos</key>
 			<real>490</real>
+		</dict>
+		<key>349850B7-7BE1-4058-89F2-A6B1794904D9</key>
+		<dict>
+			<key>ypos</key>
+			<real>1690</real>
+		</dict>
+		<key>4154165A-5C54-4658-B3C8-4BD66054EF21</key>
+		<dict>
+			<key>ypos</key>
+			<real>1570</real>
 		</dict>
 		<key>42EEFA95-0B30-4EC8-A13B-22F720FFBFFB</key>
 		<dict>
@@ -628,6 +925,11 @@
 			<key>ypos</key>
 			<real>850</real>
 		</dict>
+		<key>67B164E0-C3A8-4FE2-85A0-ED4F043C99B1</key>
+		<dict>
+			<key>ypos</key>
+			<real>1570</real>
+		</dict>
 		<key>6F3BD9EF-B075-4391-AC0E-E37E290EDDDF</key>
 		<dict>
 			<key>ypos</key>
@@ -638,10 +940,20 @@
 			<key>ypos</key>
 			<real>730</real>
 		</dict>
+		<key>8BE191B8-9A09-4481-9FEE-1BA9A88C10A9</key>
+		<dict>
+			<key>ypos</key>
+			<real>2050</real>
+		</dict>
 		<key>944D1F52-9C03-495B-9A30-AE38AE4B0C72</key>
 		<dict>
 			<key>ypos</key>
 			<real>130</real>
+		</dict>
+		<key>9D297CFC-F4D8-4202-83F4-CC158C75772C</key>
+		<dict>
+			<key>ypos</key>
+			<real>1930</real>
 		</dict>
 		<key>A339D0E9-651B-4E2B-B03D-42AEC241B4A3</key>
 		<dict>
@@ -663,6 +975,21 @@
 			<key>ypos</key>
 			<real>970</real>
 		</dict>
+		<key>BCC6BE00-BC6E-4501-8394-B60ED9CEB3C2</key>
+		<dict>
+			<key>ypos</key>
+			<real>1810</real>
+		</dict>
+		<key>BE112D1B-5E79-4348-87A5-F78620D0019F</key>
+		<dict>
+			<key>ypos</key>
+			<real>1450</real>
+		</dict>
+		<key>BEFC65D6-43F6-4268-92AE-EA4BE57A8142</key>
+		<dict>
+			<key>ypos</key>
+			<real>1810</real>
+		</dict>
 		<key>C1E72B90-AE0D-4601-B644-3ADD52EEE83D</key>
 		<dict>
 			<key>ypos</key>
@@ -673,10 +1000,20 @@
 			<key>ypos</key>
 			<real>250</real>
 		</dict>
+		<key>CD42F66C-3216-43E8-B759-741A16F105E6</key>
+		<dict>
+			<key>ypos</key>
+			<real>2050</real>
+		</dict>
 		<key>CD560F14-F8EB-475F-AB0F-CC23D5EBDA89</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
+		</dict>
+		<key>CEFB64DF-EBBE-4B72-B616-8FC82E034BDA</key>
+		<dict>
+			<key>ypos</key>
+			<real>1930</real>
 		</dict>
 		<key>CF99676A-1F09-4B69-810F-F190765B7413</key>
 		<dict>
@@ -707,6 +1044,11 @@
 		<dict>
 			<key>ypos</key>
 			<real>1210</real>
+		</dict>
+		<key>FBB8CA9A-E95F-4A9F-AEBD-D411AF399799</key>
+		<dict>
+			<key>ypos</key>
+			<real>1690</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
