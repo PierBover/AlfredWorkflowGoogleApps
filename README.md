@@ -21,11 +21,13 @@ To install simply download the [GoogleApps.alfredworkflow](GoogleApps.alfredwork
 * `keep` to open Google Keep
 * `music` to open Google Play Music
 * `contacts` to open Google Contacts
+* `forms` to open Google Forms
 
 **New document**
 * `new doc` to create a new Google Doc
 * `new sheet` to create a new Google Sheet
 * `new slide` to create a new Google Slide
+* `new forms` to create a new Google Form
 
 **Search**
 * `music` to search Google Play Music
