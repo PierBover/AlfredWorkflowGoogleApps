@@ -27,7 +27,7 @@ To install simply download the [GoogleApps.alfredworkflow](GoogleApps.alfredwork
 * `new doc` to create a new Google Doc
 * `new sheet` to create a new Google Sheet
 * `new slide` to create a new Google Slide
-* `new forms` to create a new Google Form
+* `new form` to create a new Google Form
 
 **Search**
 * `music` to search Google Play Music
