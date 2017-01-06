@@ -6,7 +6,7 @@ A simple workflow for accessing Google Apps.
 ## Installation
 To install simply download the [GoogleApps.alfredworkflow](GoogleApps.alfredworkflow?raw=true) file and double click to install in Alfred.
 
-> Note: You will have to deactivate Gmail and Drive from the default URL searches provided in Alfred to remove the duplicates.
+> Note: You will have to deactivate Gmail and Drive from the default URL searches provided in Alfred to remove duplicates.
 
 ## Usage
 **Easy access**
@@ -22,6 +22,8 @@ To install simply download the [GoogleApps.alfredworkflow](GoogleApps.alfredwork
 * `music` to open Google Play Music
 * `contacts` to open Google Contacts
 * `forms` to open Google Forms
+* `books` to open your Google Play Books
+* `books store` to the Google Play Store
 
 **New document**
 * `new doc` to create a new Google Doc
