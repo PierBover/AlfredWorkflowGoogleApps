@@ -60,6 +60,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>3BCC68A5-397E-41CA-8EA3-622F51AB178B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2D6A9E74-3715-420A-94CE-882D2BA4F71D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4154165A-5C54-4658-B3C8-4BD66054EF21</key>
 		<array>
 			<dict>
@@ -117,6 +130,32 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>CD42F66C-3216-43E8-B759-741A16F105E6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9309D9A3-1566-4341-AB01-79B9E61B0C67</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>077C85A7-4D63-4061-964A-013E6300F050</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>99D2664E-D5E3-4C44-B707-60CA6E192ED9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AB3AE5CD-372D-4210-A6D3-7EA240AB2B70</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -548,6 +587,46 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
+				<string>https://drive.google.com/drive/u/0/starred</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>077C85A7-4D63-4061-964A-013E6300F050</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>drive starred</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Starred Files in Google Drive</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9309D9A3-1566-4341-AB01-79B9E61B0C67</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
 				<string>https://drive.google.com</string>
 				<key>utf8</key>
 				<false/>
@@ -967,7 +1046,7 @@
 				<key>spaces</key>
 				<string>+</string>
 				<key>url</key>
-				<string>https://contacts.google.com/u/0/preview/search/{query}</string>
+				<string>https://contacts.google.com/search/{query}</string>
 				<key>utf8</key>
 				<false/>
 			</dict>
@@ -1079,6 +1158,86 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>books store</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search Google Play Books Store</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>3BCC68A5-397E-41CA-8EA3-622F51AB178B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://play.google.com/store/search?c=books&amp;q={query}</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>2D6A9E74-3715-420A-94CE-882D2BA4F71D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>passwords</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Google Passwords</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>99D2664E-D5E3-4C44-B707-60CA6E192ED9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://passwords.google.com/</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>AB3AE5CD-372D-4210-A6D3-7EA240AB2B70</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -1090,6 +1249,13 @@
 			<integer>300</integer>
 			<key>ypos</key>
 			<real>10</real>
+		</dict>
+		<key>077C85A7-4D63-4061-964A-013E6300F050</key>
+		<dict>
+			<key>xpos</key>
+			<integer>860</integer>
+			<key>ypos</key>
+			<integer>730</integer>
 		</dict>
 		<key>091EEC82-494D-4CB2-B55E-172F982CA833</key>
 		<dict>
@@ -1119,12 +1285,26 @@
 			<key>ypos</key>
 			<real>490</real>
 		</dict>
+		<key>2D6A9E74-3715-420A-94CE-882D2BA4F71D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>2430</integer>
+		</dict>
 		<key>349850B7-7BE1-4058-89F2-A6B1794904D9</key>
 		<dict>
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>
 			<real>1690</real>
+		</dict>
+		<key>3BCC68A5-397E-41CA-8EA3-622F51AB178B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>2430</integer>
 		</dict>
 		<key>4154165A-5C54-4658-B3C8-4BD66054EF21</key>
 		<dict>
@@ -1203,12 +1383,26 @@
 			<key>ypos</key>
 			<integer>2300</integer>
 		</dict>
+		<key>9309D9A3-1566-4341-AB01-79B9E61B0C67</key>
+		<dict>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>730</integer>
+		</dict>
 		<key>944D1F52-9C03-495B-9A30-AE38AE4B0C72</key>
 		<dict>
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
 			<real>130</real>
+		</dict>
+		<key>99D2664E-D5E3-4C44-B707-60CA6E192ED9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>2560</integer>
 		</dict>
 		<key>9C8685C0-3710-484E-BC74-97A5705F0CDA</key>
 		<dict>
@@ -1237,6 +1431,13 @@
 			<integer>300</integer>
 			<key>ypos</key>
 			<real>610</real>
+		</dict>
+		<key>AB3AE5CD-372D-4210-A6D3-7EA240AB2B70</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>2560</integer>
 		</dict>
 		<key>AC3DD5AA-5A89-469D-96E5-1095CA327E3D</key>
 		<dict>

@@ -10,20 +10,21 @@ To install simply download the [GoogleApps.alfredworkflow](GoogleApps.alfredwork
 
 ## Usage
 **Easy access**
-* `gmail` to open Gmail
-* `docs` to open Google Docs
-* `sheets` to open Google Sheets
-* `calendar` to open Google Calendar
-* `inbox` to open Google Inbox
-* `slides` to open Google Slides
-* `drive` to open Google Drive
-* `photos` to open Google Photos
-* `keep` to open Google Keep
-* `music` to open Google Play Music
-* `contacts` to open Google Contacts
-* `forms` to open Google Forms
 * `books` to open your Google Play Books
 * `books store` to the Google Play Store
+* `calendar` to open Google Calendar
+* `contacts` to open Google Contacts
+* `docs` to open Google Docs
+* `drive` to open Google Drive
+* `forms` to open Google Forms
+* `gmail` to open Gmail
+* `inbox` to open Google Inbox
+* `music` to open Google Play Music
+* `keep` to open Google Keep
+* `passwords` to open Google Passwords
+* `photos` to open Google Photos
+* `slides` to open Google Slides
+* `sheets` to open Google Sheets
 
 **New document**
 * `new doc` to create a new Google Doc
